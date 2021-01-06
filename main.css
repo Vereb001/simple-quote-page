@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One" rel="stylesheet">
+
+  <title>Freedom</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <p class="quote">"The freedom of Mankind does not lie in the fact that we can do what we want, but that we do not have to do that which we do not want."</p>
+    <p class="author"><small>– Jean-Jacques Rousseau</small></p>
+  </div>
+
+</body>
+</html> 
+ 33  main.css 
+@@ -0,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url('assets/freedom.jpg') no-repeat center;
+  background-size: cover;
+  color: #333;
+}
+
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem; 
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+} 
